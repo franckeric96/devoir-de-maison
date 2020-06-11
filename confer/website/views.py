@@ -10,7 +10,7 @@ def home(request):
     return render(request, 'index.html', data)
 
 
-def about(request):
+def propos(request):
     
     data = {
         
